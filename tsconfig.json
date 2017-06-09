@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "sourceMap": false, // not needed for lab
+    "target": "es5",
+    "outDir": "./lib"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "compileOnSave": true
+}
