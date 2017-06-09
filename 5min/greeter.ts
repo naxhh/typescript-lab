@@ -1,7 +1,12 @@
-function greeter(person) {
-  return 'Hello, ' + person
+interface Person {
+  firstName: string
+  lastName: string
 }
 
-var user = 'John Doe'
+function greeter(person: Person) {
+  return 'Hello, ' + person.firstName + ' ' + person.lastName
+}
+
+var user = { firstName: 'John', lastName: 'Doe'}
 
 console.log(greeter(user))
